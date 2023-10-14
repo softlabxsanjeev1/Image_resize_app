@@ -1,0 +1,15 @@
+{
+  "name": "image_resize_app",
+  "version": "1.0.0",
+  "description": "Resize image application",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanjeev kumar",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^27.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
