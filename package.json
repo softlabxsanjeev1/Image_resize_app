@@ -1,15 +1,20 @@
 {
   "name": "image_resize_app",
   "version": "1.0.0",
+  "ProductName": "Image Resizer",
   "description": "Resize image application",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",   
+    "watch": "nodemon --exec electron ."
   },
   "author": "Sanjeev kumar",
   "license": "ISC",
   "dependencies": {
     "electron": "^27.0.0",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
   }
 }

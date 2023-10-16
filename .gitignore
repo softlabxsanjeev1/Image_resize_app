@@ -1,1 +1,4 @@
 /node_modules
+
+// write this command in pkg .json 
+ // "watch": "nodemon --exec electron ."
